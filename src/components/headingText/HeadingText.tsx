@@ -1,16 +1,18 @@
 import React from 'react'
 import styles from './HeadingText.module.scss'
-import { Grid, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
+import { AiOutlinePlus } from 'react-icons/ai';
+
 
 export interface IHeadingText {
     heading: string;
-    text?: string;
+    onClick?: any;
 }
-const HeadingText = ({ heading, text }: IHeadingText) => {
+const HeadingText = ({ heading, onClick }: IHeadingText) => {
     return (
         <Grid className={styles.headingTextContainer}>
-            <Typography variant='h2' fontWeight={600} fontSize={28}>{heading}</Typography>
-            <Typography fontWeight={500} fontSize={18}>{text}</Typography>
+            <Typography variant='h2' fontWeight={500} fontSize={25}>{heading}</Typography>
+            <AiOutlinePlus onClick={onClick} fontSize={25} />
         </Grid>
     )
 }

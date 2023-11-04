@@ -1,0 +1,104 @@
+{
+    "tableData": [
+        {
+            "id": 1,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 2,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 3,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 4,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 5,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 6,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 7,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 8,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 9,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        },
+        {
+            "id": 10,
+            "emp_id": "EMP000001",
+            "name": "John Deo",
+            "email": "john_deo@gmail.com",
+            "branch": "Noida",
+            "department": "Devlopment",
+            "designation": "Software Engineer",
+            "dateOfJoin": "12 May 2022"
+        }
+    ]
+}

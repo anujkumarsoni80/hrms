@@ -1,26 +1,30 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './ProfileCard.module.scss'
-import { Grid, Typography } from '@mui/material'
-import { RxAvatar } from 'react-icons/rx';
-import { MdKeyboardArrowDown } from 'react-icons/md';
-import ProfileDetailsCard from '../profileDetailsCard/ProfileDetailsCard';
+import { Card, CardContent, CardMedia, Grid, Typography } from '@mui/material'
+import { PiDotsThreeVerticalBold } from 'react-icons/pi';
 
-
-const ProfileCard = () => {
-    const [open, setOpen] = useState(false)
-    const handleProfile = () => {
-        setOpen(!open)
-    }
+export interface IProfileCard {
+    label: string;
+    img: string;
+    name: string;
+    email: string;
+}
+const ProfileCard = ({ label, img, name, email }: IProfileCard) => {
     return (
-        <Grid className={styles.profileCardContainer}>
-            <RxAvatar fontSize={45} />
-            <Typography>hi, Anuj Kumar</Typography>
-            <MdKeyboardArrowDown onClick={handleProfile} fontSize={25} />
-            <Grid>
-                {open && <ProfileDetailsCard />}
-            </Grid>
-        </Grid>
+        <Card className={styles.profileCardContainer}>
+            <CardContent className={styles.profileHeading}>
+                <Typography fontSize={14} sx={{backgroundColor:"#F8F9F9", paddingBlock:1, paddingInline:2}}>{label}</Typography>
+                <PiDotsThreeVerticalBold style={{ cursor: "pointer" }} fontWeight={600} />
+            </CardContent>
+            <CardMedia className={styles.profileImage}>
+                <img src={img} alt='img' />
+            </CardMedia>
+            <CardContent>
+                <Typography textAlign={"center"} variant='h4' fontWeight={600} fontSize={20}>{name}</Typography>
+                <Typography textAlign={"center"}>{email}</Typography>
+            </CardContent>
+        </Card>
     )
 }
 
-export default ProfileCard;
+export default ProfileCard

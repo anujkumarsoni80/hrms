@@ -1,20 +1,28 @@
 import React, { Fragment } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../../../pages/home/Home'
-import About from '../../../pages/about/About'
-import Service from '../../../pages/service/Service'
-import Blog from '../../../pages/blog/Blog'
-import Contact from '../../../pages/contact/Contact'
+import Staff from '../../../pages/staff/Staff'
+import Employee from '../../../pages/employee/Employee'
+import Timesheet from '../../../pages/timesheet/Timesheet'
+import Payroll from '../../../pages/payroll/Payroll'
+import Overview from '../../../pages/home/overview/Overview'
+import Report from '../../../pages/home/report/Report'
+import ManageLeave from '../../../pages/timesheet/manageLeave/ManageLeave'
+import Attendance from '../../../pages/timesheet/attendance/Attendance'
 
 const ViewRoutes = () => {
     return (
         <Fragment>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/service' element={<Service />} />
-                <Route path='/blog' element={<Blog />} />
-                <Route path='/contact' element={<Contact />} />
+                <Route path='/staff' element={<Staff />} />
+                <Route path='/employee' element={<Employee />} />
+                <Route path='/payroll' element={<Payroll />} />
+                <Route path='/overview' element={<Overview />} />
+                <Route path='/report' element={<Report />} />
+                <Route path='/timesheet' element={<Timesheet />} />
+                <Route path='/manage-leave' element={<ManageLeave />} />
+                <Route path='/attendance' element={<Attendance />} />
             </Routes>
         </Fragment>
     )

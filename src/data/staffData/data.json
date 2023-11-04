@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    },
+    {
+        "id": 2,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    },
+    {
+        "id": 3,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    },
+    {
+        "id": 4,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    },
+    {
+        "id": 5,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    },
+    {
+        "id": 6,
+        "img": "/asserst/images/profileImage.jpg",
+        "label": "Manager",
+        "name": "John Deo",
+        "email": "john_deo@gmail.com"
+    }
+]

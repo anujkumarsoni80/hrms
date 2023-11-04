@@ -1,22 +1,18 @@
 .profileCardContainer {
-    border: 1px solid darkgrey;
-    display: flex;
-    width: fit-content;
-    padding-block: 0.25rem;
-    padding-inline: 1rem;
-    border-radius: 0.5rem;
-    background-color: #ffffff;
-    &:hover{
-        background-color: #F8F9F9;
+    .profileHeading {
+        display: flex;
+        justify-content: space-between;
     }
 
-    p {
+    .profileImage {
+        width: fit-content;
         margin: auto;
-        padding-inline: 0.25rem;
-    }
 
-    p+svg {
-        margin: auto;
-        cursor: pointer;
+        img {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+
+        }
     }
 }

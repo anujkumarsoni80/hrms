@@ -1,0 +1,22 @@
+.employeeTableContainer {
+    height: 30rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.5rem;
+
+    .tableAction {
+
+        svg {
+            padding: 0.35rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+        }
+
+        svg:nth-child(1) {
+            color: #3EC9D6;
+        }
+
+        svg:nth-child(2) {
+            color: #FF3A6E;
+        }
+    }
+}

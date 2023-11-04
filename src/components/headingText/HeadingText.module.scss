@@ -1,3 +1,14 @@
 .headingTextContainer {
     padding-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    svg {
+        padding: 0.5rem;
+        // background-color: #F8F9F9;
+        background-color: darkgray;
+        color: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
 }
