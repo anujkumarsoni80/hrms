@@ -1,0 +1,22 @@
+.notificationCardContainer {
+    height: 4.25rem;
+    width: fit-content;
+    position: relative;
+
+    svg {
+        padding: 0.75rem;
+    }
+
+    p {
+        padding: 0.25rem;
+        border: 1px solid #111;
+        margin: auto;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        border-radius: 100%;
+        width: 0.9rem;
+        height: 0.9rem;
+        background-color: aqua;
+    }
+}

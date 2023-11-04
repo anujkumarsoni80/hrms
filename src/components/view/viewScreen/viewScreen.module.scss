@@ -1,0 +1,31 @@
+.viewScreenContainer {
+    .viewMenuContainer {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        >div:nth-child(1) {
+            width: fit-content;
+            margin: auto;
+            margin-block: 1rem;
+            cursor: pointer;
+        }
+
+        ul>li {
+            padding: 0;
+
+            >div {
+                padding-block: 0.85rem;
+
+                svg {
+                    background-color: darkgray;
+                    color: #ffffff;
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
+                }
+
+                h5 {
+                    padding-inline-start: 0.75rem;
+                }
+            }
+        }
+    }
+}

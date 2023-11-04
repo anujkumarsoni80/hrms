@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "label": "Dashboard",
+        "path": "/"
+    },
+    {
+        "id": 2,
+        "label": "Staff",
+        "path": "/staff"
+    },
+    {
+        "id": 3,
+        "label": "Employee",
+        "path": "/employee"
+    },
+    {
+        "id": 4,
+        "label": "Payroll",
+        "path": "/payroll"
+    },
+    {
+        "id": 5,
+        "label": "Timesheet",
+        "path": "/timesheet"
+    }
+]
