@@ -11,7 +11,13 @@ export interface ITimesheetTable {
     hours: string;
     remark: string;
 }
-const TimesheetTable = ({ data }: any) => {
+export interface ITimesheetTableType {
+    data: ITimesheetTable[];
+    handleEdit: () => void;
+    handleDelete: () => void;
+
+}
+const TimesheetTable = ({ data, handleEdit, handleDelete }: ITimesheetTableType) => {
     return (
         <TableContainer className={styles.timesheetTableContainer}>
             <Box display={"flex"} justifyContent={"right"}>
@@ -42,8 +48,8 @@ const TimesheetTable = ({ data }: any) => {
                                 <TableCell>{item.hours}</TableCell>
                                 <TableCell>{item.remark}</TableCell>
                                 <TableCell>
-                                    <MdEdit fontSize={25} cursor={"pointer"} color='#3EC9D6' />
-                                    <MdDelete fontSize={25} cursor={"pointer"} color='#FF3A6E' />
+                                    <MdEdit onClick={handleEdit} fontSize={25} cursor={"pointer"} color='#3EC9D6' />
+                                    <MdDelete onClick={handleDelete} fontSize={25} cursor={"pointer"} color='#FF3A6E' />
                                 </TableCell>
                             </TableRow>
                         )

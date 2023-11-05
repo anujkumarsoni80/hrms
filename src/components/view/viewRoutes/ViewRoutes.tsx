@@ -9,6 +9,7 @@ import Overview from '../../../pages/home/overview/Overview'
 import Report from '../../../pages/home/report/Report'
 import ManageLeave from '../../../pages/timesheet/manageLeave/ManageLeave'
 import Attendance from '../../../pages/timesheet/attendance/Attendance'
+import CreateEmployee from '../../../pages/createEmployee/CreateEmployee'
 
 const ViewRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const ViewRoutes = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/staff' element={<Staff />} />
                 <Route path='/employee' element={<Employee />} />
+                <Route path='/employee/create' element={<CreateEmployee />} />
                 <Route path='/payroll' element={<Payroll />} />
                 <Route path='/overview' element={<Overview />} />
                 <Route path='/report' element={<Report />} />

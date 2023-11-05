@@ -1,0 +1,48 @@
+.timesheetModaContainer {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+
+    .timesheetModal {
+
+        >div {
+            margin-block: 1rem;
+        }
+
+        >div:nth-child(1)>div {
+            width: 100%;
+        }
+
+        >div:nth-child(2) {
+            display: flex;
+
+            >div:nth-child(1) {
+                width: 90%;
+
+                >div {
+                    width: 96%;
+                }
+            }
+
+            >div:nth-child(2) {
+                width: 90%;
+
+                >div {
+                    width: 100%;
+                }
+            }
+        }
+
+        >div:nth-child(3) {
+            >div {
+                width: 100%;
+            }
+        }
+    }
+
+    .timesheetModal+div {
+        >div:nth-child(1) {
+            margin-inline-end: 0.5rem;
+        }
+    }
+}

@@ -9,7 +9,8 @@ import StaffModal from '../../components/staffModal/StaffModal'
 
 const Staff = () => {
     const [open, setOpen] = useState(false)
-    const handleClick = () => setOpen(!open)
+    const handleClick = () => setOpen(!open);
+    const handleCloss = () => setOpen(false);
 
     return (
         <Grid className={styles.staffContainer}>
@@ -34,7 +35,7 @@ const Staff = () => {
             </Grid>
             <StaffModal
                 open={open}
-
+                handleCloss={handleCloss}
             />
         </Grid>
     )

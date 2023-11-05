@@ -1,0 +1,23 @@
+.documentContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-block: 5%;
+    border-radius: 0.5rem;
+
+    h5 {
+        padding-inline: 5%;
+    }
+
+    hr {
+        margin-block: 2rem;
+    }
+
+    >div {
+        padding-inline: 5%;
+
+        >div {
+            display: flex;
+            justify-content: space-between;
+            margin-block: 2rem;
+        }
+    }
+}

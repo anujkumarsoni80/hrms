@@ -1,0 +1,17 @@
+.createEmployeeContainer {
+    padding: 2%;
+
+    .createEmployee {
+
+        >div {
+            padding: 0.5rem;
+        }
+    }
+
+    .createEmployee+div {
+        display: flex;
+        justify-content: right;
+        margin-block: 1rem;
+    }
+
+}

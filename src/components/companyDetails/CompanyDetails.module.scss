@@ -1,0 +1,38 @@
+.companyDetailsContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.5rem;
+    padding-block: 5%;
+
+    h5 {
+        padding-inline: 5%;
+    }
+
+    hr {
+        margin-block: 2rem;
+    }
+
+    .companyDetails {
+        padding-inline: 5%;
+
+        >div {
+            margin-block: 1rem;
+        }
+
+        >div>div {
+            width: 100%;
+
+        }
+
+        .branch {
+            display: flex;
+
+            >div:nth-child(1) {
+                padding-inline-end: 1rem;
+            }
+
+            >div>div {
+                width: 100%;
+            }
+        }
+    }
+}

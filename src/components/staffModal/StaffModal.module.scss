@@ -1,0 +1,29 @@
+.staffModalContainer {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+
+    >hr {
+        margin-block-start: 1rem;
+        margin-block-end: 2rem;
+    }
+
+    >hr+div {
+
+        >div {
+            margin-block: 1rem;
+
+            >div {
+                width: 100%;
+            }
+        }
+    }
+
+    >hr+div+div {
+        display: flex;
+        justify-content: right;
+
+        >button:nth-child(1) {
+            margin-inline-end: 0.75rem;
+        }
+    }
+}
